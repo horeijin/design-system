@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx build @frontproject/themes",
-    "startTime": "2024-01-04T06:02:25.793Z",
-    "endTime": "2024-01-04T06:02:30.370Z",
+    "command": "nx build @frontproject/react-components-layout",
+    "startTime": "2024-01-04T07:13:27.936Z",
+    "endTime": "2024-01-04T07:13:32.326Z",
     "inner": false
   },
   "tasks": [
@@ -10,20 +10,31 @@
       "taskId": "@frontproject/esbuild-config:build",
       "target": "build",
       "projectName": "@frontproject/esbuild-config",
-      "hash": "6260142364387889701",
-      "startTime": "2024-01-04T06:02:25.796Z",
-      "endTime": "2024-01-04T06:02:26.858Z",
+      "hash": "2371193570185715156",
+      "startTime": "2024-01-04T07:13:27.940Z",
+      "endTime": "2024-01-04T07:13:27.960Z",
       "params": "",
-      "cacheStatus": "cache-miss",
+      "cacheStatus": "local-cache-hit",
       "status": 0
     },
     {
       "taskId": "@frontproject/themes:build",
       "target": "build",
       "projectName": "@frontproject/themes",
-      "hash": "8873881920951786133",
-      "startTime": "2024-01-04T06:02:26.859Z",
-      "endTime": "2024-01-04T06:02:30.370Z",
+      "hash": "5842643880814515888",
+      "startTime": "2024-01-04T07:13:27.962Z",
+      "endTime": "2024-01-04T07:13:27.968Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "@frontproject/react-components-layout:build",
+      "target": "build",
+      "projectName": "@frontproject/react-components-layout",
+      "hash": "15338152957977984062",
+      "startTime": "2024-01-04T07:13:27.972Z",
+      "endTime": "2024-01-04T07:13:32.326Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0
