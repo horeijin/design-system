@@ -1,0 +1,15 @@
+{
+  "name": "front-project",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/**/*",
+    "services/**/*"
+  ],
+  "scripts": {
+    "build" : "nx build",
+    "graph" : "nx run-many --target=build --graph"
+  },
+  "devDependencies": {
+    "nx": "^17.2.8"
+  }
+}

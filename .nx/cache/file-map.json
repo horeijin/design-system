@@ -1,0 +1,623 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.2.8",
+  "deps": {
+    "nx": "^17.2.8"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "pluginsConfig": {
+    "@nx/js": {
+      "analyzeSourceFiles": false
+    }
+  },
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".git/hooks/push-to-checkout.sample",
+        "hash": "5194610557431485830"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/outputs/packages/themes/dist/index.d.ts",
+        "hash": "12233664765431858979"
+      },
+      {
+        "file": ".git/info/exclude",
+        "hash": "2084763735014985388"
+      },
+      {
+        "file": ".git/hooks/pre-rebase.sample",
+        "hash": "15784748353859782246"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "2542176753207573402"
+      },
+      {
+        "file": ".git/hooks/pre-merge-commit.sample",
+        "hash": "5691533144974613569"
+      },
+      {
+        "file": ".nx/cache/run.json",
+        "hash": "777733973936004657"
+      },
+      {
+        "file": ".git/hooks/pre-push.sample",
+        "hash": "3666369642558647280"
+      },
+      {
+        "file": "README.md",
+        "hash": "5555019634456988538"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/outputs/packages/themes/dist/variables/colors/scale.d.ts",
+        "hash": "13825339923779810162"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139.commit",
+        "hash": "4664556114322093609"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/terminalOutput",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".git/hooks/applypatch-msg.sample",
+        "hash": "3740124940738663445"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/outputs/packages/themes/dist/classes/index.d.ts",
+        "hash": "12912607555662736653"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/outputs/packages/themes/dist/variables/colors/index.d.ts",
+        "hash": "7326832966542287352"
+      },
+      {
+        "file": ".pnp.cjs",
+        "hash": "1839779577844922767"
+      },
+      {
+        "file": ".git/hooks/pre-applypatch.sample",
+        "hash": "1595391782482835178"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/outputs/packages/themes/dist/index.cjs",
+        "hash": "15332998246353038791"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/outputs/packages/themes/dist/variables/colors/static/light.d.ts",
+        "hash": "17642843712593174127"
+      },
+      {
+        "file": ".git/hooks/commit-msg.sample",
+        "hash": "11930680668000581900"
+      },
+      {
+        "file": ".git/hooks/pre-commit.sample",
+        "hash": "10258126878297473471"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/outputs/packages/themes/dist/variables/box.d.ts",
+        "hash": "17629473828533858799"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/source",
+        "hash": "5810100298919244512"
+      },
+      {
+        "file": ".git/hooks/fsmonitor-watchman.sample",
+        "hash": "5519580754951798083"
+      },
+      {
+        "file": ".git/HEAD",
+        "hash": "6460185820263248482"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/outputs/packages/themes/dist/index.cjs.map",
+        "hash": "4478507540642253833"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/outputs/packages/themes/dist/variables/colors/static/index.d.ts",
+        "hash": "18024143103640227694"
+      },
+      {
+        "file": ".yarn/install-state.gz",
+        "hash": "17464816990433933348"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/code",
+        "hash": "1838281907459330133"
+      },
+      {
+        "file": ".git/config",
+        "hash": "14656440403329541874"
+      },
+      {
+        "file": ".git/hooks/prepare-commit-msg.sample",
+        "hash": "4009645067798984574"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/outputs/packages/themes/dist/themes.css",
+        "hash": "604753998747026443"
+      },
+      {
+        "file": ".git/hooks/pre-receive.sample",
+        "hash": "8999430056057037490"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/outputs/packages/themes/dist/classes/typography.d.ts",
+        "hash": "17439377685274993557"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/outputs/packages/themes/dist/index.js",
+        "hash": "3981564900886548045"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/outputs/packages/themes/dist/variables/colors/static/dark.d.ts",
+        "hash": "12956363065636289770"
+      },
+      {
+        "file": ".pnp.loader.mjs",
+        "hash": "6789418785968373878"
+      },
+      {
+        "file": ".git/hooks/post-update.sample",
+        "hash": "16498975149454253769"
+      },
+      {
+        "file": ".git/hooks/update.sample",
+        "hash": "14696759095365231402"
+      },
+      {
+        "file": ".git/description",
+        "hash": "6589616779641096119"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "7660290054630604974"
+      },
+      {
+        "file": "nx.json",
+        "hash": "9563123936099187788"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/outputs/packages/themes/dist/variables/typography.d.ts",
+        "hash": "10652839459202001278"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "7859836980705999221"
+      },
+      {
+        "file": ".DS_Store",
+        "hash": "508588009024154658"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/8576305243546202139",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/17382660679552543931",
+        "hash": "16543739448924461242"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "18173000292901847092"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/outputs/packages/themes/dist/index.js.map",
+        "hash": "1246739418854582020"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "1040020909924161145"
+      },
+      {
+        "file": ".nx/cache/8576305243546202139/outputs/packages/themes/dist/variables/index.d.ts",
+        "hash": "5700293818572366928"
+      },
+      {
+        "file": "package.json",
+        "hash": "15125808453979087422"
+      }
+    ],
+    "projectFileMap": {
+      "@frontproject/themes": [
+        {
+          "file": "packages/themes/build.js",
+          "hash": "13306321217082654449"
+        },
+        {
+          "file": "packages/themes/package.json",
+          "hash": "6366960114366447644"
+        },
+        {
+          "file": "packages/themes/scripts/build-css-module.js",
+          "hash": "17543992245102613162"
+        },
+        {
+          "file": "packages/themes/src/classes/index.ts",
+          "hash": "8328538807819147058"
+        },
+        {
+          "file": "packages/themes/src/classes/typography.ts",
+          "hash": "9322460245457577087"
+        },
+        {
+          "file": "packages/themes/src/index.ts",
+          "hash": "10151079580372249395"
+        },
+        {
+          "file": "packages/themes/src/variables/box.ts",
+          "hash": "7310632764648190754"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/index.ts",
+          "hash": "18210980628912623137"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/scale.ts",
+          "hash": "13031852426165598519"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/static/dark.ts",
+          "hash": "13788364669345845747"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/static/index.ts",
+          "hash": "14248548421046296756"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/static/light.ts",
+          "hash": "4015389989448464427"
+        },
+        {
+          "file": "packages/themes/src/variables/index.ts",
+          "hash": "3906210158627771294"
+        },
+        {
+          "file": "packages/themes/src/variables/typography.ts",
+          "hash": "17176311676481419402"
+        },
+        {
+          "file": "packages/themes/tsconfig.json",
+          "hash": "18122159688618094131"
+        },
+        {
+          "file": "packages/themes/dist/index.cjs.map",
+          "hash": "4478507540642253833"
+        },
+        {
+          "file": "packages/themes/dist/index.cjs",
+          "hash": "15332998246353038791"
+        },
+        {
+          "file": "packages/themes/dist/index.js.map",
+          "hash": "1246739418854582020"
+        },
+        {
+          "file": "packages/themes/dist/index.js",
+          "hash": "3981564900886548045"
+        },
+        {
+          "file": "packages/themes/dist/variables/typography.d.ts",
+          "hash": "10652839459202001278"
+        },
+        {
+          "file": "packages/themes/dist/index.d.ts",
+          "hash": "12233664765431858979"
+        },
+        {
+          "file": "packages/themes/dist/variables/box.d.ts",
+          "hash": "17629473828533858799"
+        },
+        {
+          "file": "packages/themes/dist/variables/colors/static/dark.d.ts",
+          "hash": "12956363065636289770"
+        },
+        {
+          "file": "packages/themes/dist/variables/colors/scale.d.ts",
+          "hash": "13825339923779810162"
+        },
+        {
+          "file": "packages/themes/dist/classes/typography.d.ts",
+          "hash": "17439377685274993557"
+        },
+        {
+          "file": "packages/themes/dist/classes/index.d.ts",
+          "hash": "12912607555662736653"
+        },
+        {
+          "file": "packages/themes/dist/variables/colors/static/light.d.ts",
+          "hash": "17642843712593174127"
+        },
+        {
+          "file": "packages/themes/dist/variables/index.d.ts",
+          "hash": "5700293818572366928"
+        },
+        {
+          "file": "packages/themes/dist/variables/colors/static/index.d.ts",
+          "hash": "18024143103640227694"
+        },
+        {
+          "file": "packages/themes/dist/variables/colors/index.d.ts",
+          "hash": "7326832966542287352"
+        },
+        {
+          "file": "packages/themes/dist/themes.css",
+          "hash": "604753998747026443"
+        }
+      ],
+      "test": [
+        {
+          "file": "services/test/.gitignore",
+          "hash": "5403484524555424706"
+        },
+        {
+          "file": "services/test/README.md",
+          "hash": "17911282315018038361"
+        },
+        {
+          "file": "services/test/package.json",
+          "hash": "1237367530597855121",
+          "deps": [
+            "@frontproject/themes"
+          ]
+        },
+        {
+          "file": "services/test/public/favicon.ico",
+          "hash": "2949791817221603359"
+        },
+        {
+          "file": "services/test/public/index.html",
+          "hash": "9040807457440610202"
+        },
+        {
+          "file": "services/test/public/logo192.png",
+          "hash": "7585273181698778288"
+        },
+        {
+          "file": "services/test/public/logo512.png",
+          "hash": "9339365414554387981"
+        },
+        {
+          "file": "services/test/public/manifest.json",
+          "hash": "1447645250373428393"
+        },
+        {
+          "file": "services/test/public/robots.txt",
+          "hash": "2790380794362165217"
+        },
+        {
+          "file": "services/test/src/App.css",
+          "hash": "18444725761904634926"
+        },
+        {
+          "file": "services/test/src/App.tsx",
+          "hash": "14042238137433235246"
+        },
+        {
+          "file": "services/test/src/index.css",
+          "hash": "14056909652331273425"
+        },
+        {
+          "file": "services/test/src/index.tsx",
+          "hash": "5206820501263690096"
+        },
+        {
+          "file": "services/test/src/logo.svg",
+          "hash": "5137778160416929466"
+        },
+        {
+          "file": "services/test/src/react-app-env.d.ts",
+          "hash": "3195158367843515590"
+        },
+        {
+          "file": "services/test/src/reportWebVitals.ts",
+          "hash": "4905365886999342103"
+        },
+        {
+          "file": "services/test/src/setupTests.ts",
+          "hash": "16903885983588411080"
+        },
+        {
+          "file": "services/test/tsconfig.json",
+          "hash": "3664978063588679595"
+        },
+        {
+          "file": "services/test/build/logo512.png",
+          "hash": "9339365414554387981"
+        },
+        {
+          "file": "services/test/build/robots.txt",
+          "hash": "2790380794362165217"
+        },
+        {
+          "file": "services/test/build/favicon.ico",
+          "hash": "2949791817221603359"
+        },
+        {
+          "file": "services/test/build/manifest.json",
+          "hash": "1447645250373428393"
+        },
+        {
+          "file": "services/test/build/logo192.png",
+          "hash": "7585273181698778288"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/74682b6890315b7ecf97ad0b871ff32799830ff1cd9adcb3c29de21c7996a9f7.json",
+          "hash": "952003928526762260"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/157ddd996967e609590c6908b8ed974540dafaa9edc400c3d19d3eef9e60be98.json",
+          "hash": "2450964637374607699"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/f0ea1d999d8cee02d73ae2806b5b3775931e6d214be2c053dd8a3b604a542bf1.json",
+          "hash": "4339193695837412377"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/b6407c0011eef603c9278f62fc2a7e763249485608ce68a405eaba3a4a1e6f66.json",
+          "hash": "1162075834930242384"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/e3675da7d5677cc779492e358e3ee1727252b7e94acb2bc57d243745d5a75ce1.json",
+          "hash": "16078583394313784974"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/c11a46aff5d08faa2cb715fbfbeb69e866146b7be92c4a9744cbfd7267344787.json",
+          "hash": "728834011782263978"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/00cd82e9e81f5861a44e5016c7e9d1d00bc887e15b63ba8fbfbafa694ee5717a.json",
+          "hash": "11933189814946163199"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/15a5f8f4319d31be0fa8b8b2d772ad8e9ebf9f7048d8fab2d7c0f4f09449ad62.json",
+          "hash": "12632997552378817418"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/ba456929c1145ca11dad1f5aaeee3b801c528daf3bea711b16d03f2016ed635a.json",
+          "hash": "17946086599331589027"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/f04c4dc468fd7de6a8d3a35342896a6a10c32a728d3ccb3b75258301b564ced8.json",
+          "hash": "8444305125295366122"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/d5732d07d765a0822b293115061a161f1332d04bb5c851f5166e657fa7e324b2.json",
+          "hash": "7681463320630830486"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/587f0eef7c70182b2fbe8c4d6521b0e0ae180004689fd6399cb7218f5a71f450.json",
+          "hash": "13670070085633084819"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/9c1cb8efa937c607b141bc14649faf72c2ad67d9306254dc2affd78df0762253.json",
+          "hash": "11947520228018580900"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/9ceeac5f8aa777719adfc0a7443cf2e4b981a4f5b0bd20232159e36fbd4ac943.json",
+          "hash": "17995757106375294437"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/76536c3980161ee47fe9cacc7dd0d61d9f88c826a8c1f8dcc567076dc7692173.json",
+          "hash": "9165607251292096456"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/54d024f290394789ddc8b2db36bc33b671c7ff77beb4ef02b455aa0918dc15df.json",
+          "hash": "8588892714555413839"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/382da0136b3e859498f358a6fca22a7b38109e75431979da4ef5efcdc59ad405.json",
+          "hash": "6461165016763154144"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/defb233b32c7cda60663a2620c8baa3eea65fd6af230fad202cb99916f309578.json",
+          "hash": "6292473303498693029"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/92b375a497b042785d2cd0dff5dff43dad78951ce4fc4b93d40c2825481370b2.json",
+          "hash": "4373409839644270691"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/bef36452a73a5dab2a5cd50f88fd16da1b5d7363ad48c62e390d9c578d5273ee.json",
+          "hash": "16748807885892283045"
+        },
+        {
+          "file": "services/test/node_modules/.cache/tsconfig.tsbuildinfo",
+          "hash": "6576776467609393777"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/8e0b17ebc71d9aff937271586608ace03d9297825f3d85cd8f5272bdb52e68b6.json",
+          "hash": "7397951789500522698"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/739347b8963b919a29370aad0065dc5effff46a7d1253914e0e27af99b783c44.json",
+          "hash": "11378660491801555407"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/6d53b95c1715a12e4aed4473571a4d5c5e2e45eab83b64b1bf7e9f62f4eff02b.json",
+          "hash": "15300427052143330755"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/e5b47e3199cd79a68073db59b1904ac029a6334273e9c328d50221e4a12233ca.json",
+          "hash": "12124565387593266865"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/342d43e7818d671e4b570b064f188356a53187508ec68767ba87bb0947943d56.json",
+          "hash": "2788534897249628704"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/0b27bf22bd16ffe329438f56b921b8b4fe5d2b294927a9c544b04282daebf04a.json",
+          "hash": "6732383745814855910"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/8df4218375d9486fde2eb14e8923bf5cbeea146640e26a4ef190e038b5dd1bcf.json",
+          "hash": "14526525923966393005"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/c15d1ead848653185ff7810b026d1df40316cb5f65edc2d9baecaa5e7b4f0c14.json",
+          "hash": "14915098892559335542"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/26dd2db9738fc96ac380dde6f8d88eedfec5b915319d81497e65bef4ddc7b0f7.json",
+          "hash": "17641588664454068332"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/7ef4e51a7633ac92c62806214db79fe209ac930433f1bdd88380f65b15952c6b.json",
+          "hash": "5098697978926313856"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/240e7e60047c8054425c42220980484a1c6e20e5fe68120ae991969517a589fc.json",
+          "hash": "9402679392153944811"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/143b808e85d342f218c97fe86892456a8e828b8a8ec343b2ce8126fb2b6fd95d.json",
+          "hash": "516687719264830738"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/aa57f50a76f34fe18671f43d4dc41aab0c5874f99265a565c684c8d408592d6a.json",
+          "hash": "18277806518036373655"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/d0cb26c12bcfc9b42bd57668a08f93e3c929b458cb93efa0b30a02fa9eb826f3.json",
+          "hash": "13817513634494082026"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/0c5920e75ff7e1372bc9516b0c1096949d3567be0206ded722ca00784395518e.json",
+          "hash": "14124476989126138297"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/609d0201c417b59665f84f3a4c9538cc57d93db666bd92f215c234c34c3184bf.json",
+          "hash": "12290397167445643778"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/9c2bd40c8c8a29251c98ce041a8dfc79152654edf6e873521abd76f2cd3c6ae4.json",
+          "hash": "15629490172002099265"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/78d35a2b02d6e410de20e2c55dc35a4041294a7e0cab30ffbf2577ffc2837e4e.json",
+          "hash": "144465067494082252"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/2aaf5865bde55615477def49737e06355659027a4d478be617820bf416d762d8.json",
+          "hash": "6703152752344165182"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/e5803c549f645fb401ad1430868ac741ad1ed5e67d04581c1c59d024ba3b32a3.json",
+          "hash": "13868459244963392593"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/f6c8a7512f03531cdc5ad9499afb0f62b9fe5e8bff90cc853f79b17900534846.json",
+          "hash": "999024989139934954"
+        },
+        {
+          "file": "services/test/node_modules/.cache/babel-loader/b7a9cd89f7fef8359788c93a3a0ca06c8922024ba8a83b0d8b88e7ac0b5f8d91.json",
+          "hash": "5703898459155801932"
+        }
+      ]
+    }
+  }
+}
