@@ -1,0 +1,30 @@
+[1m@storybook/cli v7.6.7[22m[0m[0m
+[0m[0m
+(node:5837) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[31mError: Your application tried to access @storybook-addon-root-attributes/package.json, but it isn't declared in your dependencies; this makes the require call ambiguous and unsound.[39m
+[31m[39m
+[31mRequired package: @storybook-addon-root-attributes/package.json[39m
+[31mRequired by: ./.storybook/[39m
+[31m[39m
+[31mRequire stack:[39m
+[31m- ./.storybook/main.js[39m
+[31m- /Users/theo/.yarn/berry/cache/@storybook-core-common-npm-7.6.7-3062e9de93-10c0.zip/node_modules/@storybook/core-common/dist/index.js[39m
+[31m- /Users/theo/.yarn/berry/cache/@storybook-telemetry-npm-7.6.7-f41f248f13-10c0.zip/node_modules/@storybook/telemetry/dist/index.js[39m
+[31m- /Users/theo/.yarn/berry/cache/@storybook-cli-npm-7.6.7-1c71149d42-10c0.zip/node_modules/@storybook/cli/dist/generate.js[39m
+[31m- /Users/theo/.yarn/berry/cache/@storybook-cli-npm-7.6.7-1c71149d42-10c0.zip/node_modules/@storybook/cli/bin/index.js[39m
+[31m- /Users/theo/.yarn/berry/cache/storybook-npm-7.6.7-ec475d03f0-10c0.zip/node_modules/storybook/index.js[39m
+    at require$$0.Module._resolveFilename (/Users/theo/Desktop/proj_next/frontUp/course-3/.pnp.cjs:22302:13)
+    at Function.resolve (node:internal/modules/helpers:187:19)
+    at getAbsolutePath (./.storybook/main.js:8:26)
+    at Object.<anonymous> (./.storybook/main.js:22:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._compile (/Users/theo/Desktop/proj_next/frontUp/course-3/.yarn/__virtual__/esbuild-register-virtual-d63105e330/5/.yarn/berry/cache/esbuild-register-npm-3.5.0-d823f64ce0-10c0.zip/node_modules/esbuild-register/dist/node.js:2258:26)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at require$$0.Module._extensions..js (/Users/theo/Desktop/proj_next/frontUp/course-3/.pnp.cjs:22345:33)
+    at Object.newLoader (/Users/theo/Desktop/proj_next/frontUp/course-3/.yarn/__virtual__/esbuild-register-virtual-d63105e330/5/.yarn/berry/cache/esbuild-register-npm-3.5.0-d823f64ce0-10c0.zip/node_modules/esbuild-register/dist/node.js:2262:9)
+    at extensions..js (/Users/theo/Desktop/proj_next/frontUp/course-3/.yarn/__virtual__/esbuild-register-virtual-d63105e330/5/.yarn/berry/cache/esbuild-register-npm-3.5.0-d823f64ce0-10c0.zip/node_modules/esbuild-register/dist/node.js:4838:24)
+
+WARN Broken build, fix the error above.
+WARN You may need to refresh the browser.
+
