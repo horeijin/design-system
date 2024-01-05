@@ -128,10 +128,83 @@
       },
       {
         "file": "yarn.lock",
-        "hash": "16563078837662187721"
+        "hash": "5853088460643204039"
       }
     ],
     "projectFileMap": {
+      "@frontproject/esbuild-config": [
+        {
+          "file": "packages/esbuild-config/README.md",
+          "hash": "6886952344311067916"
+        },
+        {
+          "file": "packages/esbuild-config/index.js",
+          "hash": "6639566103375103025"
+        },
+        {
+          "file": "packages/esbuild-config/package.json",
+          "hash": "3553616964810760828"
+        }
+      ],
+      "@frontproject/react-components-layout": [
+        {
+          "file": "packages/react/components/layout/README.md",
+          "hash": "3873811360529210895"
+        },
+        {
+          "file": "packages/react/components/layout/build.js",
+          "hash": "2179165914244789217"
+        },
+        {
+          "file": "packages/react/components/layout/package.json",
+          "hash": "16894876990839458846",
+          "deps": [
+            "@frontproject/esbuild-config",
+            "@frontproject/themes",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/react/components/layout/src/Block.tsx",
+          "hash": "7264759125310184961"
+        },
+        {
+          "file": "packages/react/components/layout/src/block.css.ts",
+          "hash": "14171331754599777850"
+        },
+        {
+          "file": "packages/react/components/layout/src/core/style.css.ts",
+          "hash": "11312536228575652453"
+        },
+        {
+          "file": "packages/react/components/layout/src/core/types.ts",
+          "hash": "15346879880072996301"
+        },
+        {
+          "file": "packages/react/components/layout/src/index.ts",
+          "hash": "9643030449088902252"
+        },
+        {
+          "file": "packages/react/components/layout/src/layout/Box.tsx",
+          "hash": "12506827497156570155"
+        },
+        {
+          "file": "packages/react/components/layout/src/layout/index.ts",
+          "hash": "14642809385303742988"
+        },
+        {
+          "file": "packages/react/components/layout/src/layout/types.ts",
+          "hash": "4500749868159174874"
+        },
+        {
+          "file": "packages/react/components/layout/src/utils/properties.ts",
+          "hash": "12938980737194074176"
+        },
+        {
+          "file": "packages/react/components/layout/tsconfig.json",
+          "hash": "14918547802114458777"
+        }
+      ],
       "@frontproject/storybook": [
         {
           "file": "services/storybook/.storybook/main.js",
@@ -160,6 +233,10 @@
         {
           "file": "services/storybook/stories/ReactComponents/Layout/Block.stories.tsx",
           "hash": "11413511558243436340"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Box.stories.tsx",
+          "hash": "16519091873343928279"
         }
       ],
       "@frontproject/themes": [
@@ -226,55 +303,6 @@
         {
           "file": "packages/themes/tsconfig.json",
           "hash": "16086421586353796355"
-        }
-      ],
-      "@frontproject/react-components-layout": [
-        {
-          "file": "packages/react/components/layout/README.md",
-          "hash": "3873811360529210895"
-        },
-        {
-          "file": "packages/react/components/layout/build.js",
-          "hash": "2179165914244789217"
-        },
-        {
-          "file": "packages/react/components/layout/package.json",
-          "hash": "7573783999369703219",
-          "deps": [
-            "@frontproject/esbuild-config",
-            "@frontproject/themes",
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "packages/react/components/layout/src/Block.tsx",
-          "hash": "7264759125310184961"
-        },
-        {
-          "file": "packages/react/components/layout/src/block.css.ts",
-          "hash": "14171331754599777850"
-        },
-        {
-          "file": "packages/react/components/layout/src/index.ts",
-          "hash": "900646760720742349"
-        },
-        {
-          "file": "packages/react/components/layout/tsconfig.json",
-          "hash": "14918547802114458777"
-        }
-      ],
-      "@frontproject/esbuild-config": [
-        {
-          "file": "packages/esbuild-config/README.md",
-          "hash": "6886952344311067916"
-        },
-        {
-          "file": "packages/esbuild-config/index.js",
-          "hash": "6639566103375103025"
-        },
-        {
-          "file": "packages/esbuild-config/package.json",
-          "hash": "3553616964810760828"
         }
       ]
     }
