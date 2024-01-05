@@ -27,184 +27,111 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".eslintrc.js",
-        "hash": "1279324242147699317"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "841533757462043182"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16320234575558175243"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "10535867006991962306"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "5192163659098944044"
-      },
-      {
-        "file": ".yarn/sdks/eslint/bin/eslint.js",
-        "hash": "457324197634674399"
-      },
-      {
-        "file": ".yarn/sdks/eslint/lib/api.js",
-        "hash": "9218057077919128729"
-      },
-      {
-        "file": ".yarn/sdks/eslint/lib/unsupported-api.js",
-        "hash": "4314044071561164915"
-      },
-      {
-        "file": ".yarn/sdks/eslint/package.json",
-        "hash": "18236824436391416004"
-      },
-      {
-        "file": ".yarn/sdks/integrations.yml",
-        "hash": "5703335058684100671"
-      },
-      {
-        "file": ".yarn/sdks/prettier/bin/prettier.cjs",
-        "hash": "8855614953399738736"
-      },
-      {
-        "file": ".yarn/sdks/prettier/index.cjs",
-        "hash": "14009293990004610656"
-      },
-      {
-        "file": ".yarn/sdks/prettier/package.json",
-        "hash": "7398904685208108536"
+        "file": ".yarn/sdks/typescript/lib/tsserver.js",
+        "hash": "5132865039172914386"
       },
       {
         "file": ".yarn/sdks/typescript/bin/tsc",
         "hash": "10666650432257705452"
       },
       {
+        "file": ".yarn/sdks/eslint/package.json",
+        "hash": "18236824436391416004"
+      },
+      {
         "file": ".yarn/sdks/typescript/bin/tsserver",
         "hash": "15690408123434230734"
       },
       {
-        "file": ".yarn/sdks/typescript/lib/tsc.js",
-        "hash": "4914677750769979712"
+        "file": ".yarn/sdks/prettier/index.cjs",
+        "hash": "14009293990004610656"
       },
       {
-        "file": ".yarn/sdks/typescript/lib/tsserver.js",
-        "hash": "5132865039172914386"
+        "file": ".yarn/sdks/eslint/lib/api.js",
+        "hash": "9218057077919128729"
       },
       {
-        "file": ".yarn/sdks/typescript/lib/tsserverlibrary.js",
-        "hash": "18097361510822175431"
+        "file": ".eslintrc.js",
+        "hash": "1279324242147699317"
       },
       {
-        "file": ".yarn/sdks/typescript/lib/typescript.js",
-        "hash": "11646577489253808815"
-      },
-      {
-        "file": ".yarn/sdks/typescript/package.json",
-        "hash": "2122891411943405775"
-      },
-      {
-        "file": "README.md",
-        "hash": "5555019634456988538"
+        "file": ".yarn/sdks/prettier/package.json",
+        "hash": "7398904685208108536"
       },
       {
         "file": "nx.json",
         "hash": "205790679622704715"
       },
       {
+        "file": ".prettierrc",
+        "hash": "16320234575558175243"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/tsserverlibrary.js",
+        "hash": "18097361510822175431"
+      },
+      {
         "file": "package.json",
         "hash": "7056139386303004964"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "15318078838320976918"
+        "file": ".yarn/sdks/eslint/bin/eslint.js",
+        "hash": "457324197634674399"
+      },
+      {
+        "file": "README.md",
+        "hash": "5555019634456988538"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "10926571733508565527"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "5192163659098944044"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/typescript.js",
+        "hash": "11646577489253808815"
       },
       {
         "file": "tsconfig.eslint.json",
         "hash": "16755288544569425854"
       },
       {
-        "file": "yarn.lock",
-        "hash": "5853088460643204039"
+        "file": ".yarn/sdks/typescript/lib/tsc.js",
+        "hash": "4914677750769979712"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "841533757462043182"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "10535867006991962306"
+      },
+      {
+        "file": ".yarn/sdks/eslint/lib/unsupported-api.js",
+        "hash": "4314044071561164915"
+      },
+      {
+        "file": ".yarn/sdks/prettier/bin/prettier.cjs",
+        "hash": "8855614953399738736"
+      },
+      {
+        "file": ".yarn/sdks/typescript/package.json",
+        "hash": "2122891411943405775"
+      },
+      {
+        "file": ".yarn/sdks/integrations.yml",
+        "hash": "5703335058684100671"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "15318078838320976918"
       }
     ],
     "projectFileMap": {
-      "@frontproject/esbuild-config": [
-        {
-          "file": "packages/esbuild-config/README.md",
-          "hash": "6886952344311067916"
-        },
-        {
-          "file": "packages/esbuild-config/index.js",
-          "hash": "6639566103375103025"
-        },
-        {
-          "file": "packages/esbuild-config/package.json",
-          "hash": "3553616964810760828"
-        }
-      ],
-      "@frontproject/react-components-layout": [
-        {
-          "file": "packages/react/components/layout/README.md",
-          "hash": "3873811360529210895"
-        },
-        {
-          "file": "packages/react/components/layout/build.js",
-          "hash": "2179165914244789217"
-        },
-        {
-          "file": "packages/react/components/layout/package.json",
-          "hash": "16894876990839458846",
-          "deps": [
-            "@frontproject/esbuild-config",
-            "@frontproject/themes",
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "packages/react/components/layout/src/Block.tsx",
-          "hash": "7264759125310184961"
-        },
-        {
-          "file": "packages/react/components/layout/src/block.css.ts",
-          "hash": "14171331754599777850"
-        },
-        {
-          "file": "packages/react/components/layout/src/core/style.css.ts",
-          "hash": "11312536228575652453"
-        },
-        {
-          "file": "packages/react/components/layout/src/core/types.ts",
-          "hash": "15346879880072996301"
-        },
-        {
-          "file": "packages/react/components/layout/src/index.ts",
-          "hash": "9643030449088902252"
-        },
-        {
-          "file": "packages/react/components/layout/src/layout/Box.tsx",
-          "hash": "12506827497156570155"
-        },
-        {
-          "file": "packages/react/components/layout/src/layout/index.ts",
-          "hash": "14642809385303742988"
-        },
-        {
-          "file": "packages/react/components/layout/src/layout/types.ts",
-          "hash": "4500749868159174874"
-        },
-        {
-          "file": "packages/react/components/layout/src/utils/properties.ts",
-          "hash": "12938980737194074176"
-        },
-        {
-          "file": "packages/react/components/layout/tsconfig.json",
-          "hash": "14918547802114458777"
-        }
-      ],
       "@frontproject/storybook": [
         {
           "file": "services/storybook/.storybook/main.js",
@@ -231,12 +158,101 @@
           ]
         },
         {
-          "file": "services/storybook/stories/ReactComponents/Layout/Block.stories.tsx",
-          "hash": "11413511558243436340"
-        },
-        {
           "file": "services/storybook/stories/ReactComponents/Layout/Box.stories.tsx",
           "hash": "16519091873343928279"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Heading.stories.tsx",
+          "hash": "5993701992172400023"
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Text.stories.tsx",
+          "hash": "9745639961574859753"
+        }
+      ],
+      "@frontproject/react-components-layout": [
+        {
+          "file": "packages/react/components/layout/README.md",
+          "hash": "3873811360529210895"
+        },
+        {
+          "file": "packages/react/components/layout/build.js",
+          "hash": "2179165914244789217"
+        },
+        {
+          "file": "packages/react/components/layout/package.json",
+          "hash": "6416101341003436573",
+          "deps": [
+            "@frontproject/esbuild-config",
+            "@frontproject/themes",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/react/components/layout/src/core/style.css.ts",
+          "hash": "11312536228575652453"
+        },
+        {
+          "file": "packages/react/components/layout/src/core/types.ts",
+          "hash": "15346879880072996301"
+        },
+        {
+          "file": "packages/react/components/layout/src/index.ts",
+          "hash": "1658367503545491483"
+        },
+        {
+          "file": "packages/react/components/layout/src/layout/Box.tsx",
+          "hash": "12506827497156570155"
+        },
+        {
+          "file": "packages/react/components/layout/src/layout/index.ts",
+          "hash": "14642809385303742988"
+        },
+        {
+          "file": "packages/react/components/layout/src/layout/types.ts",
+          "hash": "4500749868159174874"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/Heading.tsx",
+          "hash": "4215905919156026696"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/Text.tsx",
+          "hash": "8180555759496612052"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/index.ts",
+          "hash": "2344670448810440644"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/style.css.ts",
+          "hash": "14347774788804504769"
+        },
+        {
+          "file": "packages/react/components/layout/src/typography/types.ts",
+          "hash": "7027525992275072720"
+        },
+        {
+          "file": "packages/react/components/layout/src/utils/properties.ts",
+          "hash": "12938980737194074176"
+        },
+        {
+          "file": "packages/react/components/layout/tsconfig.json",
+          "hash": "14918547802114458777"
+        }
+      ],
+      "@frontproject/esbuild-config": [
+        {
+          "file": "packages/esbuild-config/README.md",
+          "hash": "6886952344311067916"
+        },
+        {
+          "file": "packages/esbuild-config/index.js",
+          "hash": "6639566103375103025"
+        },
+        {
+          "file": "packages/esbuild-config/package.json",
+          "hash": "3553616964810760828"
         }
       ],
       "@frontproject/themes": [
