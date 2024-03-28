@@ -26,6 +26,8 @@
   },
   "dependencies": {
     "@frontproject/react-components-accordion": "workspace:^",
+    "@frontproject/react-components-input": "workspace:^",
+    "@frontproject/react-components-select": "workspace:^",
     "@frontproject/react-hooks-button": "workspace:^"
   }
 }

@@ -180,6 +180,126 @@
         "tags": []
       }
     },
+    "@frontproject/react-components-select": {
+      "name": "@frontproject/react-components-select",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/components/select",
+        "sourceRoot": "packages/react/components/select",
+        "name": "@frontproject/react-components-select",
+        "projectType": "library",
+        "targets": {
+          "build": {
+            "dependsOn": [
+              "^build"
+            ],
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
+    "@frontproject/react-components-input": {
+      "name": "@frontproject/react-components-input",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/components/input",
+        "sourceRoot": "packages/react/components/input",
+        "name": "@frontproject/react-components-input",
+        "projectType": "library",
+        "targets": {
+          "build": {
+            "dependsOn": [
+              "^build"
+            ],
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
     "@frontproject/react-hooks-button": {
       "name": "@frontproject/react-hooks-button",
       "type": "lib",
@@ -240,6 +360,66 @@
         "tags": []
       }
     },
+    "@frontproject/react-hooks-select": {
+      "name": "@frontproject/react-hooks-select",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/hooks/select",
+        "sourceRoot": "packages/react/hooks/select",
+        "name": "@frontproject/react-hooks-select",
+        "projectType": "library",
+        "targets": {
+          "build": {
+            "dependsOn": [
+              "^build"
+            ],
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
     "@frontproject/react-hooks-toggle": {
       "name": "@frontproject/react-hooks-toggle",
       "type": "lib",
@@ -247,6 +427,66 @@
         "root": "packages/react/hooks/toggle",
         "sourceRoot": "packages/react/hooks/toggle",
         "name": "@frontproject/react-hooks-toggle",
+        "projectType": "library",
+        "targets": {
+          "build": {
+            "dependsOn": [
+              "^build"
+            ],
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
+    "@frontproject/react-hooks-input": {
+      "name": "@frontproject/react-hooks-input",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/hooks/input",
+        "sourceRoot": "packages/react/hooks/input",
+        "name": "@frontproject/react-hooks-input",
         "projectType": "library",
         "targets": {
           "build": {
@@ -11627,6 +11867,50 @@
         "type": "static"
       }
     ],
+    "@frontproject/react-components-select": [
+      {
+        "source": "@frontproject/react-components-select",
+        "target": "@frontproject/react-hooks-select",
+        "type": "static"
+      },
+      {
+        "source": "@frontproject/react-components-select",
+        "target": "@frontproject/esbuild-config",
+        "type": "static"
+      },
+      {
+        "source": "@frontproject/react-components-select",
+        "target": "@frontproject/themes",
+        "type": "static"
+      },
+      {
+        "source": "@frontproject/react-components-select",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
+    "@frontproject/react-components-input": [
+      {
+        "source": "@frontproject/react-components-input",
+        "target": "@frontproject/react-hooks-input",
+        "type": "static"
+      },
+      {
+        "source": "@frontproject/react-components-input",
+        "target": "@frontproject/esbuild-config",
+        "type": "static"
+      },
+      {
+        "source": "@frontproject/react-components-input",
+        "target": "@frontproject/themes",
+        "type": "static"
+      },
+      {
+        "source": "@frontproject/react-components-input",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
     "@frontproject/react-hooks-button": [
       {
         "source": "@frontproject/react-hooks-button",
@@ -11644,6 +11928,23 @@
         "type": "static"
       }
     ],
+    "@frontproject/react-hooks-select": [
+      {
+        "source": "@frontproject/react-hooks-select",
+        "target": "@frontproject/react-hooks-toggle",
+        "type": "static"
+      },
+      {
+        "source": "@frontproject/react-hooks-select",
+        "target": "@frontproject/esbuild-config",
+        "type": "static"
+      },
+      {
+        "source": "@frontproject/react-hooks-select",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
     "@frontproject/react-hooks-toggle": [
       {
         "source": "@frontproject/react-hooks-toggle",
@@ -11656,11 +11957,33 @@
         "type": "static"
       }
     ],
+    "@frontproject/react-hooks-input": [
+      {
+        "source": "@frontproject/react-hooks-input",
+        "target": "@frontproject/esbuild-config",
+        "type": "static"
+      },
+      {
+        "source": "@frontproject/react-hooks-input",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
     "@frontproject/esbuild-config": [],
     "@frontproject/storybook": [
       {
         "source": "@frontproject/storybook",
         "target": "@frontproject/react-components-accordion",
+        "type": "static"
+      },
+      {
+        "source": "@frontproject/storybook",
+        "target": "@frontproject/react-components-input",
+        "type": "static"
+      },
+      {
+        "source": "@frontproject/storybook",
+        "target": "@frontproject/react-components-select",
         "type": "static"
       },
       {
