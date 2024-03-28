@@ -25,6 +25,7 @@
     "build": "storybook build"
   },
   "dependencies": {
+    "@frontproject/react-components-accordion": "workspace:^",
     "@frontproject/react-hooks-button": "workspace:^"
   }
 }

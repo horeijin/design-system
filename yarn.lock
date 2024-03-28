@@ -2224,6 +2224,32 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@frontproject/react-components-accordion@workspace:^, @frontproject/react-components-accordion@workspace:packages/react/components/accordion":
+  version: 0.0.0-use.local
+  resolution: "@frontproject/react-components-accordion@workspace:packages/react/components/accordion"
+  dependencies:
+    "@frontproject/esbuild-config": "workspace:^"
+    "@frontproject/react-hooks-button": "workspace:^"
+    "@frontproject/themes": "workspace:^"
+    "@types/react": "npm:^18.2.21"
+    "@types/react-dom": "npm:^18.2.7"
+    "@vanilla-extract/css": "npm:^1.13.0"
+    "@vanilla-extract/dynamic": "npm:^2.1.0"
+    "@vanilla-extract/esbuild-plugin": "npm:^2.3.0"
+    "@vanilla-extract/recipes": "npm:^0.5.1"
+    "@vanilla-extract/sprinkles": "npm:^1.6.1"
+    autoprefixer: "npm:^10.4.15"
+    clsx: "npm:^2.1.0"
+    postcss: "npm:^8.4.29"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.2.2"
+  peerDependencies:
+    "@frontproject/themes": "workspace:^"
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@frontproject/react-components-button@workspace:^, @frontproject/react-components-button@workspace:packages/react/components/button":
   version: 0.0.0-use.local
   resolution: "@frontproject/react-components-button@workspace:packages/react/components/button"
@@ -2311,6 +2337,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@frontproject/storybook@workspace:services/storybook"
   dependencies:
+    "@frontproject/react-components-accordion": "workspace:^"
     "@frontproject/react-components-button": "workspace:^"
     "@frontproject/react-components-layout": "workspace:^"
     "@frontproject/react-hooks-button": "workspace:^"
