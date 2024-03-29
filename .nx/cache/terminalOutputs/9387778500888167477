@@ -1,0 +1,38 @@
+[1m@storybook/cli v7.6.7[22m[0m[0m
+[0m[0m
+(node:6659) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+info => Starting manager..
+WARN No story files found for the specified pattern: [34mstories/**/*.mdx[39m
+✘ [ERROR] @storybook/addon-a11y tried to access @storybook/icons, but it isn't declared in its dependencies; this makes the require call ambiguous and unsound.
+
+Required package: @storybook/icons
+Required by: @storybook/addon-a11y@npm:8.0.5 (via /Users/theo/.yarn/berry/cache/@storybook-addon-a11y-npm-8.0.5-75d675671f-10c0.zip/node_modules/@storybook/addon-a11y/dist/)
+ [plugin @yarnpkg/esbuild-plugin-pnp]
+
+    pnp:/Users/theo/.yarn/berry/cache/@storybook-addon-a11y-npm-8.0.5-75d675671f-10c0.zip/node_modules/@storybook/addon-a11y/dist/manager.js:6:77:
+      6 │ ..., SyncIcon, AccessibilityIcon, CheckIcon } from '@storybook/icons';
+        ╵                                                    ~~~~~~~~~~~~~~~~~~
+
+[31mError: Build failed with 1 error:[39m
+[31mpnp:/Users/theo/.yarn/berry/cache/@storybook-addon-a11y-npm-8.0.5-75d675671f-10c0.zip/node_modules/@storybook/addon-a11y/dist/manager.js:6:77: ERROR: [plugin: @yarnpkg/esbuild-plugin-pnp] @storybook/addon-a11y tried to access @storybook/icons, but it isn't declared in its dependencies; this makes the require call ambiguous and unsound.[39m
+[31m[39m
+[31mRequired package: @storybook/icons[39m
+[31mRequired by: @storybook/addon-a11y@npm:8.0.5 (via /Users/theo/.yarn/berry/cache/@storybook-addon-a11y-npm-8.0.5-75d675671f-10c0.zip/node_modules/@storybook/addon-a11y/dist/)[39m
+[31m[39m
+    at failureErrorWithLog (/Users/theo/Desktop/proj_next/frontUp/course-3/.yarn/unplugged/esbuild-npm-0.18.20-004a76d281/node_modules/esbuild/lib/main.js:1649:15)
+    at /Users/theo/Desktop/proj_next/frontUp/course-3/.yarn/unplugged/esbuild-npm-0.18.20-004a76d281/node_modules/esbuild/lib/main.js:1058:25
+    at runOnEndCallbacks (/Users/theo/Desktop/proj_next/frontUp/course-3/.yarn/unplugged/esbuild-npm-0.18.20-004a76d281/node_modules/esbuild/lib/main.js:1484:45)
+    at buildResponseToResult (/Users/theo/Desktop/proj_next/frontUp/course-3/.yarn/unplugged/esbuild-npm-0.18.20-004a76d281/node_modules/esbuild/lib/main.js:1056:7)
+    at /Users/theo/Desktop/proj_next/frontUp/course-3/.yarn/unplugged/esbuild-npm-0.18.20-004a76d281/node_modules/esbuild/lib/main.js:1085:16
+    at responseCallbacks.<computed> (/Users/theo/Desktop/proj_next/frontUp/course-3/.yarn/unplugged/esbuild-npm-0.18.20-004a76d281/node_modules/esbuild/lib/main.js:703:9)
+    at handleIncomingPacket (/Users/theo/Desktop/proj_next/frontUp/course-3/.yarn/unplugged/esbuild-npm-0.18.20-004a76d281/node_modules/esbuild/lib/main.js:762:9)
+    at Socket.readFromStdout (/Users/theo/Desktop/proj_next/frontUp/course-3/.yarn/unplugged/esbuild-npm-0.18.20-004a76d281/node_modules/esbuild/lib/main.js:679:7)
+    at Socket.emit (node:events:519:28)
+    at addChunk (node:internal/streams/readable:559:12)
+
+WARN Broken build, fix the error above.
+WARN You may need to refresh the browser.
+
+[?25l[2K[1G[36m?[39m [1mWould you like to help improve Storybook by sending anonymous crash reports?[22m [90m›[39m [90m(Y/n)[39m[2K[1G[2K[1G[31m✖[39m [1mWould you like to help improve Storybook by sending anonymous crash reports?[22m [90m…[39m yes
+[?25h

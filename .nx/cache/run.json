@@ -1,8 +1,8 @@
 {
   "run": {
     "command": "nx storybook @frontproject/storybook",
-    "startTime": "2024-01-05T00:55:33.615Z",
-    "endTime": "2024-01-05T00:55:37.548Z",
+    "startTime": "2024-03-29T02:28:39.630Z",
+    "endTime": "2024-03-29T02:29:24.067Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "@frontproject/storybook:storybook",
       "target": "storybook",
       "projectName": "@frontproject/storybook",
-      "hash": "1220500287570493867",
-      "startTime": "2024-01-05T00:55:33.618Z",
-      "endTime": "2024-01-05T00:55:37.548Z",
+      "hash": "9387778500888167477",
+      "startTime": "2024-03-29T02:28:39.634Z",
+      "endTime": "2024-03-29T02:29:24.067Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1
