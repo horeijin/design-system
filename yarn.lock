@@ -2352,6 +2352,31 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@frontproject/react-components-toast@workspace:^, @frontproject/react-components-toast@workspace:packages/react/components/toast":
+  version: 0.0.0-use.local
+  resolution: "@frontproject/react-components-toast@workspace:packages/react/components/toast"
+  dependencies:
+    "@frontproject/esbuild-config": "workspace:^"
+    "@frontproject/themes": "workspace:^"
+    "@types/react": "npm:^18.2.21"
+    "@types/react-dom": "npm:^18.2.7"
+    "@vanilla-extract/css": "npm:^1.13.0"
+    "@vanilla-extract/dynamic": "npm:^2.1.0"
+    "@vanilla-extract/esbuild-plugin": "npm:^2.3.0"
+    "@vanilla-extract/recipes": "npm:^0.5.1"
+    "@vanilla-extract/sprinkles": "npm:^1.6.1"
+    autoprefixer: "npm:^10.4.15"
+    clsx: "npm:^2.1.0"
+    postcss: "npm:^8.4.29"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.2.2"
+  peerDependencies:
+    "@frontproject/themes": "workspace:^"
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@frontproject/react-hooks-button@workspace:^, @frontproject/react-hooks-button@workspace:packages/react/hooks/button":
   version: 0.0.0-use.local
   resolution: "@frontproject/react-hooks-button@workspace:packages/react/hooks/button"
@@ -2427,6 +2452,7 @@ __metadata:
     "@frontproject/react-components-input": "workspace:^"
     "@frontproject/react-components-layout": "workspace:^"
     "@frontproject/react-components-select": "workspace:^"
+    "@frontproject/react-components-toast": "workspace:^"
     "@frontproject/react-hooks-button": "workspace:^"
     "@frontproject/themes": "workspace:^"
     "@storybook/addon-essentials": "npm:^7.6.7"

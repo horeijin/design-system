@@ -300,6 +300,66 @@
         "tags": []
       }
     },
+    "@frontproject/react-components-toast": {
+      "name": "@frontproject/react-components-toast",
+      "type": "lib",
+      "data": {
+        "root": "packages/react/components/toast",
+        "sourceRoot": "packages/react/components/toast",
+        "name": "@frontproject/react-components-toast",
+        "projectType": "library",
+        "targets": {
+          "build": {
+            "dependsOn": [
+              "^build"
+            ],
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build"
+            },
+            "configurations": {}
+          },
+          "build:js": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:js"
+            },
+            "configurations": {}
+          },
+          "build:type": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "build:type"
+            },
+            "configurations": {}
+          },
+          "clean": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "clean"
+            },
+            "configurations": {}
+          },
+          "dev": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "dev"
+            },
+            "configurations": {}
+          },
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
     "@frontproject/react-hooks-button": {
       "name": "@frontproject/react-hooks-button",
       "type": "lib",
@@ -11911,6 +11971,23 @@
         "type": "static"
       }
     ],
+    "@frontproject/react-components-toast": [
+      {
+        "source": "@frontproject/react-components-toast",
+        "target": "@frontproject/esbuild-config",
+        "type": "static"
+      },
+      {
+        "source": "@frontproject/react-components-toast",
+        "target": "@frontproject/themes",
+        "type": "static"
+      },
+      {
+        "source": "@frontproject/react-components-toast",
+        "target": "npm:typescript",
+        "type": "static"
+      }
+    ],
     "@frontproject/react-hooks-button": [
       {
         "source": "@frontproject/react-hooks-button",
@@ -11984,6 +12061,11 @@
       {
         "source": "@frontproject/storybook",
         "target": "@frontproject/react-components-select",
+        "type": "static"
+      },
+      {
+        "source": "@frontproject/storybook",
+        "target": "@frontproject/react-components-toast",
         "type": "static"
       },
       {
